@@ -1,0 +1,106 @@
+body {
+}
+#wrapper {
+	width: 600px; 
+	margin: 0 auto;
+}
+#left , #right {
+	min-height: 300px;
+}
+#left {
+	width: 30%;
+	float: left;
+	background: #c1d9ff;
+}
+#right {
+	width: 69%;
+	float: right;
+	box-shadow: 0px 0px 5px red;
+}
+#boxTitle {
+	text-align: center;
+	font-weight: bold;
+	color: blue;
+	border-bottom: 2px solid black;
+	border-bottom-style: dashed;
+}
+#boxcontent {
+	
+}
+.user {
+	padding-left: 10px;
+	color: red;
+	font-weight: bold;
+	height: 25px;
+}
+.user img {
+	width: 20px;
+	display: block;
+	float: left;
+	margin-top: 2px;
+	margin-right: 10px;
+}
+#sayHi {
+	text-align: right;
+	background: black;
+	color: #fff;
+}
+.tendangnhap {
+	font-weight: bold;
+	color: red;
+}
+input#btnLogout {
+    border: none;
+    margin: 0;
+    padding: 6px;
+    color: blue;
+    font-weight: bold;
+    background: white;
+}
+input#btnLogout:hover {
+	box-shadow: 1px 1px 5px blue;
+	color: red;
+}
+.ms {
+
+}
+#listMessages {
+	background: #fff;
+	height: 200px;
+	overflow: auto;
+
+}
+#thongbao {
+    height: 35px;
+    line-height: 27px;
+}
+#thongbao #dangchat {
+    float: left;
+    display: block;
+    margin: 0px;
+    margin-right: 10px;
+    height: 100%;
+}
+input#txtMessages ,input#txtUsername {
+    margin-left: 5px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 6px blue;
+    padding: 5px;
+}
+input#btnSendMessages ,input#btnRegister {
+    background: blue;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+}
+input#btnSendMessages:hover {
+ 	background: #fff;
+    color: blue;
+    border: 1px solid blue;
+}
+#loginForm-hide h3 {
+    color: red;
+    margin: 5px;
+}

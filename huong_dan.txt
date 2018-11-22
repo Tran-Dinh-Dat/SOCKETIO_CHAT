@@ -1,0 +1,3 @@
+﻿Để khởi động bạn vào viết dòng lệnh này vào cmd:  node SERVER.js
+--> tiếp theo bạn truy cập vào http://localhost:3000/
+--> hoàn thành
